@@ -22,7 +22,17 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "babel": {
+        "plugins": [
+          [
+            "react-native-web",
+            {
+              "enableHermes": false
+            }
+          ]
+        ]
+      }
     }
   }
 }
